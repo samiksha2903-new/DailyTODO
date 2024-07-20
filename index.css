@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-600 hover:to-yellow-600 p-3 rounded-md font-semibold
+}
+
+.wrapper {
+    @apply bg-gradient-to-r from-slate-900 from-10% via-blue-950 via-50% to-slate-950 to-80% my-20
+}
+
+.taskInp {
+    @apply border-2 border-zinc-500 bg-transparent rounded-md h-14 w-[100%] resize-none overflow-hidden p-2 leading-4 active:border-2 focus:border-2 focus:border-zinc-500 active:border-zinc-600 m-2 
+}
+
+.saveBtn {
+    @apply bg-green-600 px-3 py-2 w-20 text-center font-semibold text-base mt-7 mb-2 rounded-md
+}
+
+@tailwind utilities;

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Task</title>
+</head>
+<script src="page2.js"></script>  
+<body class="wrapper flex justify-center text-slate-300">
+    <div class="container flex items-center justify-center flex-col w-[30rem] border-zinc-500 border-2 p-2 rounded-md">
+        <div class="Date mb-4 font-semibold">16-07-2024</div>
+        <div class="nav flex justify-between w-[100%] m-2 items-center">
+            <p class="text-left userId text-slate-400">ID:</p>
+        <button class="addBtn text-right rounded-md border-2 border-zinc-500 p-2 hover:bg-slate-950 hover:text-slate-200"><i class="fa-solid fa-plus"></i> Add Tasks</button>
+        </div>
+
+        <div class="task w-[100%] items-center flex justify-center flex-col m-3 mb-7">
+            <textarea type="text" class="taskInp" placeholder="Task 1"></textarea>
+            <fieldset class="group1 hidden">
+                <input type="radio" value="value1" name="group1">
+                <label for="value1" class="mr-4">Complete</label>
+                <input type="radio" value="value2" name="group1">
+                <label for="value2" class="mr-4">Pending</label>
+                <input type="radio" value="value3" name="group1">
+                <label for="value3" class="mr-4">Incomplete</label>
+              </fieldset>
+        </div>
+        <div class="task w-[100%] items-center flex justify-center flex-col">
+            <textarea type="text" class="taskInp" placeholder="Task 2"></textarea>
+            <fieldset class="group1 hidden">
+                <input type="radio" value="value1" name="group1">
+                <label for="value1" class="mr-4">Complete</label>
+                <input type="radio" value="value2" name="group1">
+                <label for="value2" class="mr-4">Pending</label>
+                <input type="radio" value="value3" name="group1">
+                <label for="value3" class="mr-4">Incomplete</label>
+              </fieldset>
+        </div>
+        <button class="saveBtn">Save</button>
+    </div>
+    <!-- <script src="page2.js"></script>   -->
+</body>
+</html>
